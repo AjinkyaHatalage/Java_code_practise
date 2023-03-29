@@ -1,0 +1,137 @@
+Microsoft Windows [Version 10.0.22000.1574]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ahatalage>cd Ant_practical
+
+C:\Users\ahatalage\Ant_practical>ant -f build_file.xml
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\Users\ahatalage\Ant_practical\build_file.xml
+
+test:
+     [echo] File system tasks
+    [mkdir] Created dir: C:\Users\ahatalage\Ant_practical\build\classes
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+C:\Users\ahatalage\Ant_practical>ant -f build_file.xml
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\Users\ahatalage\Ant_practical\build_file.xml
+
+test:
+     [echo] File system tasks
+   [delete] Deleting directory C:\Users\ahatalage\Ant_practical\build
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+C:\Users\ahatalage\Ant_practical>ant -f build_file.xml
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\Users\ahatalage\Ant_practical\build_file.xml
+
+test:
+     [echo] File system tasks
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+C:\Users\ahatalage\Ant_practical>ant -f build_file.xml
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\Users\ahatalage\Ant_practical\build_file.xml
+
+test:
+     [echo] File system tasks
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+C:\Users\ahatalage\Ant_practical>ant -f build_file.xml
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\Users\ahatalage\Ant_practical\build_file.xml
+
+test:
+     [echo] File system tasks
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+C:\Users\ahatalage\Ant_practical>ant -f build_file.xml
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\Users\ahatalage\Ant_practical\build_file.xml
+
+test:
+     [echo] File system tasks
+     [copy] Copying 1 file to C:\Users\ahatalage\Ant_practical
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+C:\Users\ahatalage\Ant_practical>ant -f build_file.xml
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\Users\ahatalage\Ant_practical\build_file.xml
+
+test:
+     [echo] File system tasks
+     [copy] Copying 1 file to C:\Users\ahatalage\Ant_practical
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+C:\Users\ahatalage\Ant_practical>ant -f build_file.xml
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\Users\ahatalage\Ant_practical\build_file.xml
+
+test:
+     [echo] File system tasks
+    [mkdir] Created dir: C:\Users\ahatalage\Ant_practical\build\classes
+     [copy] Copying 1 file to C:\Users\ahatalage\Ant_practical\build
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+C:\Users\ahatalage\Ant_practical>ant -f build_file.xml
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\Users\ahatalage\Ant_practical\build_file.xml
+
+test:
+     [echo] File system tasks
+     [copy] Copying 1 file to C:\Users\ahatalage\Ant_practical\build
+     [copy] Copied 2 empty directories to 1 empty directory under C:\Users\ahatalage\Ant_practical\build
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+C:\Users\ahatalage\Ant_practical>ant -f build_file.xml
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\Users\ahatalage\Ant_practical\build_file.xml
+
+test:
+     [echo] File system tasks
+
+BUILD FAILED
+C:\Users\ahatalage\Ant_practical\build_file.xml:22: One of tofile or todir must be set.
+
+Total time: 0 seconds
+
+C:\Users\ahatalage\Ant_practical>ant -f build_file.xml
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\Users\ahatalage\Ant_practical\build_file.xml
+
+test:
+     [echo] File system tasks
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+C:\Users\ahatalage\Ant_practical>ant -f build_file.xml
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\Users\ahatalage\Ant_practical\build_file.xml
+
+test:
+     [echo] File system tasks
+     [move] Moving 1 file to C:\Users\ahatalage\Ant_practical\build
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+C:\Users\ahatalage\Ant_practical>
